@@ -27,7 +27,7 @@
     "test-tsec": "yarn bazelisk test //... --build_tag_filters=tsec --test_tag_filters=tsec",
     "lint": "yarn -s tslint && yarn -s stylelint && yarn -s ownerslint && yarn -s ng-dev format changed --check",
     "e2e": "bazel test //src/... --build_tag_filters=e2e --test_tag_filters=e2e --build_tests_only",
-    "deploy-dev-app": "node ./scripts/deploy-dev-app.js",
+    "deploy-dev-app": "node ./scripts/deploy-dev-app.js", 
     "breaking-changes": "ts-node --project scripts/tsconfig.json scripts/breaking-changes.ts",
     "check-entry-point-setup": "node ./scripts/check-entry-point-setup.js",
     "check-package-externals": "ts-node --project scripts/tsconfig.json scripts/check-package-externals.ts",
